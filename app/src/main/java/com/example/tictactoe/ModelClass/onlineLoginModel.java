@@ -12,6 +12,7 @@ public class onlineLoginModel {
     private String invite="";
 
     private String something = "";
+    private String something1 = "";
 
 
     public onlineLoginModel(String status, String apid, String opid, String gameId, String requeststatus) {
