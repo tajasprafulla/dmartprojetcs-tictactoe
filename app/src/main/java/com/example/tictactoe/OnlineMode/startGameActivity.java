@@ -46,6 +46,8 @@ public class startGameActivity extends AppCompatActivity {
     String apid = "";
     String opid = "";
 
+    String extra ="";
+
     String turn = "";
     ArrayList<String> newmap = new ArrayList<>();
     HashMap<String, String> map;
