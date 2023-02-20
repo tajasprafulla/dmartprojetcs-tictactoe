@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tictactoe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Result">RESULT</string>
+    <string name="x_winner">Congrats!!! X is the winner</string>
+    <string name="y_winner">Congrats!!! Y is the winner</string>
+    <string name="draw">The game is draw!!! Play again</string>
+
+</resources>

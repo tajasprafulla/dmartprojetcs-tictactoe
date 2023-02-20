@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".OnlineMode.onlineLoginActivity">
+
+
+    <TextView
+        android:id="@+id/tvHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:fontFamily="@font/alegreya_bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideLine1"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.2"
+        android:orientation="horizontal"/>
+
+    <EditText
+        android:id="@+id/NameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_bold"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideLine1"
+        />
+
+    <EditText
+        android:id="@+id/PhoneInput"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_bold"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameInput"
+         />
+
+    <Button
+        android:id="@+id/moveahead"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/save"
+        android:fontFamily="@font/alegreya_black"
+        android:layout_marginTop="16dp"
+        android:text="Proceed"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneInput"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
